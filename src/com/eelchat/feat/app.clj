@@ -9,7 +9,7 @@
     (ui/page
      {}
      nil
-     [:div "Signed in as " email "."
+     [:div "Signed in as halleluja " email "."
       (biff/form
        {:action "/auth/signout"
         :class "inline"}
